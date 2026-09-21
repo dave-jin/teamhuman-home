@@ -276,7 +276,7 @@
                       "id": "statEventsVal",
                       "name": "Value",
                       "fill": "#37210D",
-                      "content": "9",
+                      "content": "10",
                       "fontFamily": "Libre Baskerville",
                       "fontSize": 40,
                       "fontWeight": "bold"
@@ -307,7 +307,7 @@
                       "id": "statTeamsVal",
                       "name": "Value",
                       "fill": "#37210D",
-                      "content": "124",
+                      "content": "137",
                       "fontFamily": "Libre Baskerville",
                       "fontSize": 40,
                       "fontWeight": "bold"
@@ -338,7 +338,7 @@
                       "id": "statBuildersVal",
                       "name": "Value",
                       "fill": "#37210D",
-                      "content": "300+",
+                      "content": "360+",
                       "fontFamily": "Libre Baskerville",
                       "fontSize": 40,
                       "fontWeight": "bold"
@@ -369,7 +369,7 @@
                       "id": "statPressVal",
                       "name": "Value",
                       "fill": "#37210D",
-                      "content": "$39,000",
+                      "content": "$49,000",
                       "fontFamily": "Libre Baskerville",
                       "fontSize": 40,
                       "fontWeight": "bold"
@@ -379,7 +379,7 @@
                       "id": "statPressLbl",
                       "name": "Label",
                       "fill": "#37210D",
-                      "content": "in sponsored AI credits, awarded to 18 winning teams",
+                      "content": "in sponsored AI credits, awarded to 21 winning teams",
                       "fontFamily": "Pretendard",
                       "fontSize": 13,
                       "fontWeight": "normal",
@@ -3555,87 +3555,6 @@
                 },
                 {
                   "type": "frame",
-                  "id": "evRowAiForGood",
-                  "name": "AI IMPACT: AI for Good Hackathon",
-                  "width": "fill_container",
-                  "fill": "#FFFFFF",
-                  "stroke": "#DDDDDD",
-                  "strokeWidth": 1,
-                  "cornerRadius": 20,
-                  "layout": "horizontal",
-                  "gap": 16,
-                  "padding": [
-                    12,
-                    12,
-                    12,
-                    20
-                  ],
-                  "alignItems": "center",
-                  "metadata": {
-                    "href": "https://luma.com/sfdsjsxi"
-                  },
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "evRowAiForGoodBody",
-                      "name": "Row Body",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 6,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "evRowAiForGoodDate",
-                          "name": "Row Date",
-                          "fill": "#C45C26",
-                          "content": "Sep 18, 2026",
-                          "fontFamily": "Pretendard",
-                          "fontSize": 13,
-                          "fontWeight": "semibold"
-                        },
-                        {
-                          "type": "text",
-                          "id": "evRowAiForGoodTitle",
-                          "name": "Row Title",
-                          "fill": "#37210D",
-                          "content": "AI IMPACT: AI for Good Hackathon",
-                          "fontFamily": "Libre Baskerville",
-                          "fontSize": 19,
-                          "fontWeight": "medium",
-                          "lineHeight": 1.35
-                        },
-                        {
-                          "type": "text",
-                          "id": "evRowAiForGoodPlace",
-                          "name": "Row Place",
-                          "fill": "#91857A",
-                          "content": "Seocho-gu, Seoul — Seoul AI Hub",
-                          "fontFamily": "Pretendard",
-                          "fontSize": 13,
-                          "fontWeight": "normal",
-                          "lineHeight": 1.45
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "evRowAiForGoodCover",
-                      "name": "Row Cover",
-                      "width": 120,
-                      "height": 120,
-                      "cornerRadius": 14,
-                      "fill": "#F1F1ED",
-                      "metadata": {
-                        "type": "local",
-                        "src": "images/Event/260918ai-for-good.png",
-                        "alt": "AI IMPACT: AI for Good Hackathon",
-                        "fit": "cover"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
                   "id": "evRowHack4",
                   "name": "Cursor Hackathon Seoul vol.4",
                   "width": "fill_container",
@@ -3717,8 +3636,8 @@
                 },
                 {
                   "type": "frame",
-                  "id": "recapToython",
-                  "name": "Recap Toython",
+                  "id": "recapAiForGood",
+                  "name": "Recap AI for Good",
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "stroke": "#DDDDDD",
@@ -3764,7 +3683,7 @@
                           "id": "recapTitle",
                           "name": "Recap Title",
                           "fill": "#37210D",
-                          "content": "Toython: Physical AI Hackathon",
+                          "content": "AI IMPACT: AI for Good Hackathon",
                           "fontFamily": "Libre Baskerville",
                           "fontSize": 24,
                           "fontWeight": "bold"
@@ -3774,7 +3693,7 @@
                           "id": "recapDate",
                           "name": "Recap Date",
                           "fill": "#C45C26",
-                          "content": "Aug 22, 2026",
+                          "content": "Sep 18, 2026",
                           "fontFamily": "Pretendard",
                           "fontSize": 14,
                           "fontWeight": "semibold"
@@ -3784,7 +3703,7 @@
                           "id": "recapDesc",
                           "name": "Recap Description",
                           "fill": "#37210D",
-                          "content": "Five hours at Seoul AI Hub. 107 builders formed 42 teams and turned a Bluetooth board and AI voice coding into toys that actually move — 37% of them had never touched hardware before. Hosted by Team Human with NUCODE, sponsored by OpenAI, in partnership with Seoul AI Hub and Korea Investment Accelerator.",
+                          "content": "Four hours at Seoul AI Hub. 59 builders shipped 13 working civic prototypes in the morning, then pitched into an afternoon policy forum with City Hall, the Seoul Office of Education, and Google. Hosted by Team Human in partnership with Seoul AI Hub and the Seoul Metropolitan Government; prizes in SpaceXAI credits.",
                           "fontFamily": "Pretendard",
                           "fontSize": 14,
                           "fontWeight": "normal",
@@ -3799,8 +3718,8 @@
                       "name": "Recap Hero Image",
                       "metadata": {
                         "type": "local",
-                        "src": "images/Recap/toython/hero-group.jpg",
-                        "alt": "Toython group photo under the LED wall at Seoul AI Hub"
+                        "src": "images/Recap/aiforgood/hero.jpg",
+                        "alt": "Builders at laptops in a Seoul AI Hub classroom, AI for Good on the screen"
                       },
                       "width": "fill_container",
                       "height": 430,
@@ -3821,7 +3740,7 @@
                         {
                           "type": "frame",
                           "id": "recapStatAppliedWrap",
-                          "name": "Stat 200+",
+                          "name": "Stat 115",
                           "layout": "vertical",
                           "gap": 4,
                           "children": [
@@ -3830,7 +3749,7 @@
                               "id": "recapStatAppliedVal",
                               "name": "Value",
                               "fill": "#37210D",
-                              "content": "200+",
+                              "content": "115",
                               "fontFamily": "Libre Baskerville",
                               "fontSize": 30,
                               "fontWeight": "bold"
@@ -3851,7 +3770,7 @@
                         {
                           "type": "frame",
                           "id": "recapStatTeamsWrap",
-                          "name": "Stat 41",
+                          "name": "Stat 13",
                           "layout": "vertical",
                           "gap": 4,
                           "children": [
@@ -3860,7 +3779,7 @@
                               "id": "recapStatTeamsVal",
                               "name": "Value",
                               "fill": "#37210D",
-                              "content": "41",
+                              "content": "13",
                               "fontFamily": "Libre Baskerville",
                               "fontSize": 30,
                               "fontWeight": "bold"
@@ -3870,7 +3789,7 @@
                               "id": "recapStatTeamsLbl",
                               "name": "Label",
                               "fill": "#37210D",
-                              "content": "teams shipped",
+                              "content": "prototypes shipped",
                               "fontFamily": "Pretendard",
                               "fontSize": 12,
                               "fontWeight": "normal",
@@ -3881,7 +3800,7 @@
                         {
                           "type": "frame",
                           "id": "recapStatBuildersWrap",
-                          "name": "Stat 107",
+                          "name": "Stat 59",
                           "layout": "vertical",
                           "gap": 4,
                           "children": [
@@ -3890,7 +3809,7 @@
                               "id": "recapStatBuildersVal",
                               "name": "Value",
                               "fill": "#37210D",
-                              "content": "107",
+                              "content": "59",
                               "fontFamily": "Libre Baskerville",
                               "fontSize": 30,
                               "fontWeight": "bold"
@@ -3911,7 +3830,7 @@
                         {
                           "type": "frame",
                           "id": "recapStatFirstWrap",
-                          "name": "Stat 37%",
+                          "name": "Stat 12",
                           "layout": "vertical",
                           "gap": 4,
                           "children": [
@@ -3920,7 +3839,7 @@
                               "id": "recapStatFirstVal",
                               "name": "Value",
                               "fill": "#37210D",
-                              "content": "37%",
+                              "content": "12",
                               "fontFamily": "Libre Baskerville",
                               "fontSize": 30,
                               "fontWeight": "bold"
@@ -3930,7 +3849,7 @@
                               "id": "recapStatFirstLbl",
                               "name": "Label",
                               "fill": "#37210D",
-                              "content": "had never touched hardware",
+                              "content": "pitches",
                               "fontFamily": "Pretendard",
                               "fontSize": 12,
                               "fontWeight": "normal",
@@ -3962,7 +3881,7 @@
                           "id": "recapWinnersDesc",
                           "name": "Winners Desc",
                           "fill": "#37210D",
-                          "content": "Ranked on the day by 928 peer scores, with $9,000 in OpenAI API credits split across the podium.",
+                          "content": "Ranked on the day by peer and guest scores, with $4,000 in SpaceXAI credits split across the podium.",
                           "fontFamily": "Pretendard",
                           "fontSize": 13,
                           "fontWeight": "normal",
@@ -3979,8 +3898,8 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "recapWinSaveTheEarth",
-                          "name": "Winner 지구를 지켜라",
+                          "id": "recapWinSueojigyo",
+                          "name": "Winner 수어지교",
                           "width": "fill_container",
                           "fill": "rgba(196, 92, 38, 0.07)",
                           "cornerRadius": 12,
@@ -3990,10 +3909,10 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "recapWinSaveTheEarthAward",
+                              "id": "recapWinSueojigyoAward",
                               "name": "Award",
                               "fill": "#C45C26",
-                              "content": "1ST PLACE — $5,000",
+                              "content": "1ST PLACE — $2,000",
                               "fontFamily": "Pretendard",
                               "fontSize": 11,
                               "fontWeight": "semibold",
@@ -4001,20 +3920,20 @@
                             },
                             {
                               "type": "text",
-                              "id": "recapWinSaveTheEarthProd",
+                              "id": "recapWinSueojigyoProd",
                               "name": "Product",
                               "fill": "#37210D",
-                              "content": "지구를 지켜라",
+                              "content": "수어지교",
                               "fontFamily": "Pretendard",
                               "fontSize": 16,
                               "fontWeight": "semibold"
                             },
                             {
                               "type": "text",
-                              "id": "recapWinSaveTheEarthDesc",
+                              "id": "recapWinSueojigyoDesc",
                               "name": "Desc",
                               "fill": "#37210D",
-                              "content": "“Save the Earth, Doggy Blaster” — an alien-invader taming project, built as a blaster you pick up and actually fire.",
+                              "content": "Sueojigyo — a crowd-sourced sign-language wiki with an AI sign-language generator.",
                               "fontFamily": "Pretendard",
                               "fontSize": 13,
                               "fontWeight": "normal",
@@ -4025,8 +3944,8 @@
                         },
                         {
                           "type": "frame",
-                          "id": "recapWinAntiTurtle",
-                          "name": "Winner 안티터틀",
+                          "id": "recapWinMaro",
+                          "name": "Winner 마로",
                           "width": 300,
                           "fill": "#F1F1ED",
                           "cornerRadius": 12,
@@ -4036,10 +3955,10 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "recapWinAntiTurtleAward",
+                              "id": "recapWinMaroAward",
                               "name": "Award",
                               "fill": "#C45C26",
-                              "content": "2ND PLACE — $3,000",
+                              "content": "2ND PLACE — $1,000",
                               "fontFamily": "Pretendard",
                               "fontSize": 11,
                               "fontWeight": "semibold",
@@ -4047,20 +3966,20 @@
                             },
                             {
                               "type": "text",
-                              "id": "recapWinAntiTurtleProd",
+                              "id": "recapWinMaroProd",
                               "name": "Product",
                               "fill": "#37210D",
-                              "content": "안티터틀 🐢",
+                              "content": "마로",
                               "fontFamily": "Pretendard",
                               "fontSize": 16,
                               "fontWeight": "semibold"
                             },
                             {
                               "type": "text",
-                              "id": "recapWinAntiTurtleDesc",
+                              "id": "recapWinMaroDesc",
                               "name": "Desc",
                               "fill": "#37210D",
-                              "content": "Two 6-axis IMU sensors read your posture and warn you the moment your neck creeps forward.",
+                              "content": "Maro — an AI civic-administration copilot for foreign residents.",
                               "fontFamily": "Pretendard",
                               "fontSize": 13,
                               "fontWeight": "normal",
@@ -4071,8 +3990,8 @@
                         },
                         {
                           "type": "frame",
-                          "id": "recapWinDevicenet",
-                          "name": "Winner Devicenet",
+                          "id": "recapWinBaeundaero",
+                          "name": "Winner 배운대로",
                           "width": 300,
                           "fill": "#F1F1ED",
                           "cornerRadius": 12,
@@ -4082,7 +4001,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "recapWinDevicenetAward",
+                              "id": "recapWinBaeundaeroAward",
                               "name": "Award",
                               "fill": "#C45C26",
                               "content": "3RD PLACE — $1,000",
@@ -4093,20 +4012,20 @@
                             },
                             {
                               "type": "text",
-                              "id": "recapWinDevicenetProd",
+                              "id": "recapWinBaeundaeroProd",
                               "name": "Product",
                               "fill": "#37210D",
-                              "content": "Devicenet",
+                              "content": "배운대로",
                               "fontFamily": "Pretendard",
                               "fontSize": 16,
                               "fontWeight": "semibold"
                             },
                             {
                               "type": "text",
-                              "id": "recapWinDevicenetDesc",
+                              "id": "recapWinBaeundaeroDesc",
                               "name": "Desc",
                               "fill": "#37210D",
-                              "content": "A sensor-equipped smart helmet that watches for hazards on industrial sites.",
+                              "content": "Baeundaero — an audit layer for AI essay grading.",
                               "fontFamily": "Pretendard",
                               "fontSize": 13,
                               "fontWeight": "normal",
@@ -4122,7 +4041,7 @@
                       "id": "recapGalleryTitle",
                       "name": "Gallery Title",
                       "fill": "#37210D",
-                      "content": "Five hours, in frames",
+                      "content": "Four hours, in frames",
                       "fontFamily": "Libre Baskerville",
                       "fontSize": 18,
                       "fontWeight": "bold"
@@ -4140,8 +4059,8 @@
                           "name": "Photo",
                           "metadata": {
                             "type": "local",
-                            "src": "images/Recap/toython/g1.jpg",
-                            "alt": "Opening session — the Toython key visual on the LED wall"
+                            "src": "images/Recap/aiforgood/g1.jpg",
+                            "alt": "Orientation — AI for Good on the screen at Seoul AI Hub"
                           },
                           "width": 300,
                           "height": 225,
@@ -4154,8 +4073,8 @@
                           "name": "Photo",
                           "metadata": {
                             "type": "local",
-                            "src": "images/Recap/toython/g2.jpg",
-                            "alt": "A workbench of sensors, servos and printed parts"
+                            "src": "images/Recap/aiforgood/g2.jpg",
+                            "alt": "A four-person team huddle around laptops during the morning build"
                           },
                           "width": 300,
                           "height": 225,
@@ -4168,8 +4087,8 @@
                           "name": "Photo",
                           "metadata": {
                             "type": "local",
-                            "src": "images/Recap/toython/g3.jpg",
-                            "alt": "The build floor at Seoul AI Hub, seen from the balcony above"
+                            "src": "images/Recap/aiforgood/g3.jpg",
+                            "alt": "The Seoul AI Hub atrium full of builders at work"
                           },
                           "width": 300,
                           "height": 225,
@@ -4182,8 +4101,8 @@
                           "name": "Photo",
                           "metadata": {
                             "type": "local",
-                            "src": "images/Recap/toython/g4.jpg",
-                            "alt": "A maker filming the blaster he built in five hours"
+                            "src": "images/Recap/aiforgood/g4.jpg",
+                            "alt": "Maro pitching at the afternoon policy forum"
                           },
                           "width": 300,
                           "height": 225,
@@ -4196,8 +4115,8 @@
                           "name": "Photo",
                           "metadata": {
                             "type": "local",
-                            "src": "images/Recap/toython/g5.jpg",
-                            "alt": "Devicenet presents its smart safety helmet, worn on stage"
+                            "src": "images/Recap/aiforgood/g5.jpg",
+                            "alt": "수어지교 takes first place"
                           },
                           "width": 300,
                           "height": 225,
@@ -4210,8 +4129,8 @@
                           "name": "Photo",
                           "metadata": {
                             "type": "local",
-                            "src": "images/Recap/toython/g6.jpg",
-                            "alt": "지구를 지켜라 takes first place"
+                            "src": "images/Recap/aiforgood/g6.jpg",
+                            "alt": "수어지교 with the first-place board — $2,000 in SpaceXAI credits"
                           },
                           "width": 300,
                           "height": 225,
@@ -4279,6 +4198,87 @@
                       "fontSize": 12,
                       "fontWeight": "semibold",
                       "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "evRowAiForGood",
+                  "name": "AI IMPACT: AI for Good Hackathon",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": "#DDDDDD",
+                  "strokeWidth": 1,
+                  "cornerRadius": 20,
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "padding": [
+                    12,
+                    12,
+                    12,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "metadata": {
+                    "href": "https://luma.com/sfdsjsxi"
+                  },
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "evRowAiForGoodBody",
+                      "name": "Row Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "evRowAiForGoodDate",
+                          "name": "Row Date",
+                          "fill": "#A59B92",
+                          "content": "Sep 18, 2026",
+                          "fontFamily": "Pretendard",
+                          "fontSize": 13,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "evRowAiForGoodTitle",
+                          "name": "Row Title",
+                          "fill": "#37210D",
+                          "content": "AI IMPACT: AI for Good Hackathon",
+                          "fontFamily": "Libre Baskerville",
+                          "fontSize": 19,
+                          "fontWeight": "medium",
+                          "lineHeight": 1.35
+                        },
+                        {
+                          "type": "text",
+                          "id": "evRowAiForGoodPlace",
+                          "name": "Row Place",
+                          "fill": "#91857A",
+                          "content": "Seocho-gu, Seoul — Seoul AI Hub",
+                          "fontFamily": "Pretendard",
+                          "fontSize": 13,
+                          "fontWeight": "normal",
+                          "lineHeight": 1.45
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "evRowAiForGoodCover",
+                      "name": "Row Cover",
+                      "width": 120,
+                      "height": 120,
+                      "cornerRadius": 14,
+                      "fill": "#F1F1ED",
+                      "metadata": {
+                        "type": "local",
+                        "src": "images/Event/260918ai-for-good.png",
+                        "alt": "AI IMPACT: AI for Good Hackathon",
+                        "fit": "cover"
+                      }
                     }
                   ]
                 },

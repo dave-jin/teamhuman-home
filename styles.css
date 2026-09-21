@@ -1906,6 +1906,7 @@ a.stat:hover {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: center bottom;
   border-radius: 12px;
   margin-bottom: 28px;
 }
