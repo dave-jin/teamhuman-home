@@ -1,6 +1,7 @@
 {
   "nav.events": "Events",
   "hero.text": "We're Team Human, a community of builders who believe the best tech starts with empathy, creativity, and real human connection.",
+  "hero.slide.aiforgood.alt": "Group after the awards at AI for Good, Seoul AI Hub",
   "stats.label": "Since June 2025",
   "stats.events.value": "10",
   "stats.events.label": "events, and counting",
@@ -73,7 +74,7 @@
   "recap.winners.title": "Three winning teams",
   "recap.winners.desc": "Ranked on the day by peer and guest scores, with $4,000 in SpaceXAI credits split across the podium.",
   "recap.gallery.title": "Four hours, in frames",
-  "recap.hero.alt": "Builders at laptops in a Seoul AI Hub classroom, AI for Good on the screen",
+  "recap.hero.alt": "VIP commemorative group photo at Seoul AI Hub after AI for Good",
   "recap.photo.award": "수어지교 with the first-place board — $2,000 in SpaceXAI credits",
   "events.pushtoprod.title": "Push to Prod SEOUL",
   "events.pushtoprod.location": "Yeongdong-daero, Gangnam-gu, Seoul",
