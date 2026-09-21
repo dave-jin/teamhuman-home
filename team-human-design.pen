@@ -149,7 +149,7 @@
               "metadata": {
                 "control": "carousel",
                 "aspectRatio": "1376 / 774",
-                "slides": 2,
+                "slides": 4,
                 "navigation": "dots + arrows + keyboard",
                 "scrollSnap": true
               },
@@ -159,8 +159,20 @@
               "children": [
                 {
                   "type": "frame",
+                  "id": "heroSlideAiforgood",
+                  "name": "Slide 1 — AI for Good Group Photo",
+                  "metadata": {
+                    "type": "local",
+                    "src": "images/hero-aiforgood-group.jpg",
+                    "alt": "Group after the awards at AI for Good, Seoul AI Hub"
+                  },
+                  "width": "fill_container",
+                  "fill": "#C4BFB7"
+                },
+                {
+                  "type": "frame",
                   "id": "heroSlideVol3",
-                  "name": "Slide 1 — Toython Group Photo",
+                  "name": "Slide 2 — Toython Group Photo",
                   "metadata": {
                     "type": "local",
                     "src": "images/hero-toython-group.jpg",
@@ -172,7 +184,7 @@
                 {
                   "type": "frame",
                   "id": "heroSlide1",
-                  "name": "Slide 2 — Group Photo",
+                  "name": "Slide 3 — Group Photo",
                   "metadata": {
                     "type": "local",
                     "src": "images/hackathon-hero.png",
@@ -184,7 +196,7 @@
                 {
                   "type": "frame",
                   "id": "heroSlide2",
-                  "name": "Slide 3 — Eurekathon Recap",
+                  "name": "Slide 4 — Eurekathon Recap",
                   "metadata": {
                     "control": "youtube-embed",
                     "videoId": "73UMS4CliLw",
@@ -199,7 +211,7 @@
                   "name": "Slider Dots",
                   "metadata": {
                     "anchor": "bottom-center",
-                    "items": 3
+                    "items": 4
                   },
                   "fill": "rgba(0, 0, 0, 0.25)",
                   "cornerRadius": 999,
@@ -3719,7 +3731,7 @@
                       "metadata": {
                         "type": "local",
                         "src": "images/Recap/aiforgood/hero.jpg",
-                        "alt": "Builders at laptops in a Seoul AI Hub classroom, AI for Good on the screen"
+                        "alt": "VIP commemorative group photo at Seoul AI Hub after AI for Good"
                       },
                       "width": "fill_container",
                       "height": 430,
