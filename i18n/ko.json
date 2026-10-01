@@ -62,6 +62,8 @@
   "events.past": "지난 이벤트",
   "events.toython.title": "Toython: 피지컬 AI 해커톤",
   "events.toython.location": "서울특별시 서초구 태봉로 108 서울 AI 허브 메인센터 4층",
+  "events.yumithon.title": "YUMITHON: 헤이유미 MCP 해커톤",
+  "events.yumithon.location": "서울특별시 중구 을지로11길 33 하이드 미 플리즈 2층",
   "events.hackathon4.title": "Cursor Hackathon Seoul vol.4",
   "events.hackathon4.location": "서울 — 장소 추후 공지",
   "recap.badge": "최근 행사 리캡",

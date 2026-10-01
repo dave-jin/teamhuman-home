@@ -3567,6 +3567,87 @@
                 },
                 {
                   "type": "frame",
+                  "id": "evRowYumithon",
+                  "name": "YUMITHON",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": "#DDDDDD",
+                  "strokeWidth": 1,
+                  "cornerRadius": 20,
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "padding": [
+                    12,
+                    12,
+                    12,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "metadata": {
+                    "href": "https://luma.com/2guk5d34"
+                  },
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "evRowYumithonBody",
+                      "name": "Row Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "evRowYumithonDate",
+                          "name": "Row Date",
+                          "fill": "#C45C26",
+                          "content": "Oct 17, 2026",
+                          "fontFamily": "Pretendard",
+                          "fontSize": 13,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "evRowYumithonTitle",
+                          "name": "Row Title",
+                          "fill": "#37210D",
+                          "content": "YUMITHON: HeyYumi MCP Hackathon",
+                          "fontFamily": "Libre Baskerville",
+                          "fontSize": 19,
+                          "fontWeight": "medium",
+                          "lineHeight": 1.35
+                        },
+                        {
+                          "type": "text",
+                          "id": "evRowYumithonPlace",
+                          "name": "Row Place",
+                          "fill": "#91857A",
+                          "content": "Jung-gu, Seoul — Hide Me Please Euljiro, 2F",
+                          "fontFamily": "Pretendard",
+                          "fontSize": 13,
+                          "fontWeight": "normal",
+                          "lineHeight": 1.45
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "evRowYumithonCover",
+                      "name": "Row Cover",
+                      "width": 120,
+                      "height": 120,
+                      "cornerRadius": 14,
+                      "fill": "#F1F1ED",
+                      "metadata": {
+                        "type": "local",
+                        "src": "images/Event/261017yumithon.png",
+                        "alt": "YUMITHON: HeyYumi MCP Hackathon",
+                        "fit": "cover"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
                   "id": "evRowHack4",
                   "name": "Cursor Hackathon Seoul vol.4",
                   "width": "fill_container",
