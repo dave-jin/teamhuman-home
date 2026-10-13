@@ -3649,7 +3649,7 @@
                 {
                   "type": "frame",
                   "id": "evRowHack4",
-                  "name": "Cursor Hackathon Seoul vol.4",
+                  "name": "Cursor × Grok Bot Hackathon Seoul #4",
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "stroke": "#DDDDDD",
@@ -3691,7 +3691,7 @@
                           "id": "evRowHack4Title",
                           "name": "Row Title",
                           "fill": "#37210D",
-                          "content": "Cursor Hackathon Seoul vol.4",
+                          "content": "Cursor × Grok Bot Hackathon Seoul #4",
                           "fontFamily": "Libre Baskerville",
                           "fontSize": 19,
                           "fontWeight": "medium",
@@ -3721,7 +3721,7 @@
                       "metadata": {
                         "type": "local",
                         "src": "images/Event/261024cursor-hackathon-seoul-4th.png",
-                        "alt": "Cursor Hackathon Seoul vol.4",
+                        "alt": "Cursor × Grok Bot Hackathon Seoul #4",
                         "fit": "cover"
                       }
                     }
