@@ -1796,9 +1796,8 @@ a.stat:hover {
 }
 
 /* === Save the date row (events.html) === */
-/* Currently unused — no event is in the pre-registration stage. Kept because
-   the variant comes back every cycle: a real date, no poster and no Luma page
-   yet, so the row runs cover-less and full width with a KakaoTalk CTA. */
+/* A real date, no poster and no Luma page yet, so the row runs cover-less and
+   full width with a KakaoTalk CTA. In use for the Notion Hackathon (Nov 2026). */
 .event-row--savedate {
   align-items: flex-start;
   padding: 20px;
@@ -1819,6 +1818,7 @@ a.stat:hover {
 
 .savedate-cta {
   display: inline-flex;
+  align-self: flex-start;
   align-items: center;
   margin-top: 8px;
   padding: 11px 20px;

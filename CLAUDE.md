@@ -98,7 +98,7 @@ The whole page is **one `.events-timeline`** — a single 800px centred column w
 Order down the rail:
 
 1. **`UPCOMING` rail head** → one `.event-row.event-row--upcoming` per event with open registration, wrapped in an `<a>` to the Luma page. The `--upcoming` modifier is the only difference: it turns the date accent orange. **More than one may be stacked** (Jun 2026, Aug 2026). There is deliberately **no per-row `Upcoming` badge** — the rail head already says it, and repeating it on every row was the redundancy that made the old cards feel heavy.
-   - `.event-row--savedate` — cover-less full-width variant with a description and a KakaoTalk CTA, for when the date is real but venue/registration/poster are not final. Currently unused; keep it and `events.savedate` / `.savedate-*`, the variant comes back every cycle.
+   - `.event-row--savedate` — cover-less full-width variant with a description and a KakaoTalk CTA, for when the date is real but venue/registration/poster are not final. It is a `<div>`, not a link, since there is no Luma page to go to. **In use since 2026-10-26 for the Notion Hackathon (Nov 21, 2026)** — date and "with Notion Korea" only; venue, prize and size were not final, so they are deliberately absent. When its Luma page opens, turn it into a normal linked row with a cover.
    - **`Toython` is the 뚝딱톤 / Physical AI Hackathon renamed, not a new event** (2026-08-15). It ran as an `events.physical.*` save-the-date until the Luma page opened; those keys were replaced by `events.toython.*`. Don't re-add 뚝딱톤 as a separate card. It ran on 2026-08-22 and is now the `.recap`. Project folder: `PARA/5. Archive/2026-08_해커톤-토이톤` (archived after the event).
 2. **`.recap`** — the most recent finished event, carrying its own rail dot via `.recap::before`. Only ever **one** recap lives here; when a new event finishes, replace this block rather than stacking them.
 3. **`PAST EVENTS` rail head** → **year sub-heads** (`.events-rail-head--year`, one per calendar year) → plain `.event-row`s, **most-recent first**. Add a new year sub-head when the first event of a new year rolls off.
@@ -106,6 +106,10 @@ Order down the rail:
 **When an event finishes**, do all four: drop `--upcoming` from its row and move it under the right year sub-head · replace `.recap` with the new event · move the old recap's stats/winners/photos out (or drop them) · add the next event under `UPCOMING`.
 
 **Row covers are 120px squares** (`.event-row-cover`, 84px on mobile). Newer posters are 1:1 and fill it with `object-fit: cover`. The four older Luma banners (`250614`, `251025`, `260207`, `260304`) are 928×522 16:9 — square-cropping them cut 44% of the width and sliced the event name in half, so they carry `.event-row-cover--wide` and letterbox with `object-fit: contain` instead. **Check a new poster's ratio before adding a row**: 1:1 → plain cover, 16:9 → add `--wide`.
+
+**Grok Bot Build Days (2026-10-26).** The `#4` row (`Cursor × Grok Bot Hackathon Seoul #4`, Oct 24) became **Grok Bot Seoul Build Day, Nov 1** — same Luma page (`06x2etd7`), date and format changed, venue Korea Investment Accelerator (역삼로 557 제니스타워 4층). **Its Luma cover still reads "Saturday, October 24th"**, so the row does not use the Luma image: `261101grokbot-seoul-buildday.png` is the Nov 1 cover from the official thumbnail generator (vault `1. Projects/2026-10-24_행사-GrokBot-해커톤-서울/03_키비주얼/`). The SF row (`ba9sivsv`, Nov 7, Hippo Campus) uses the Luma cover. `261024cursor-hackathon-seoul-4th.png` is no longer referenced.
+
+**Venue strings were checked against Luma on 2026-10-26.** The Feb 2026 hackathon and the Mar 2026 Network Build Day had `역삼로 55/7 패스트파이브` — Luma says `역삼로 557 제니스타워 4층 대강당` (the same building as Korea Investment Accelerator), so both now read that. Cursor Meetup Seoul's lounge is `해시드라운지` / Hashed Lounge, not 패시드/Facid. **POBACO is left at May 05** although its Luma page now shows May 12 18:00 KST — the row was added on May 12 at 19:50 as an already-past event, so which date is real is unresolved.
 
 **The row must stay a row on mobile.** The old featured card stacked to a column under 768px, which is exactly what made two events scroll for three screens. Only the cover and the padding shrink.
 
@@ -126,7 +130,7 @@ Four **cumulative** numbers under the hero — they describe the whole community
 
 | Stat | Value | Where it comes from |
 |---|---|---|
-| events | **9** | count the `.event-row`s on `events.html` that have **already happened** — upcoming rows are not counted until the day passes |
+| events | **11** | count the `.event-row`s on `events.html` that have **already happened** — upcoming rows are not counted until the day passes. 11 = the ten past rows through AI for Good + YUMITHON (2026-10-17), counted on 2026-10-26 |
 | teams | **124** | 26 (vol.1) + 28 (vol.2) + 29 (vol.3) + 41 (Toython) |
 | builders | **300+** | ~70 (vol.1) + 70+ (vol.2) + 67 (vol.3) + 107 (Toython), rounded **down** |
 | credits | **$39,000** | $30,000 Cursor (3 hackathons × 5 teams × $2,000) + $9,000 OpenAI (Toython, $5k/$3k/$1k) |

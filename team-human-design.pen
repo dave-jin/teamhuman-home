@@ -288,7 +288,7 @@
                       "id": "statEventsVal",
                       "name": "Value",
                       "fill": "#37210D",
-                      "content": "10",
+                      "content": "11",
                       "fontFamily": "Libre Baskerville",
                       "fontSize": 40,
                       "fontWeight": "bold"
@@ -3567,89 +3567,8 @@
                 },
                 {
                   "type": "frame",
-                  "id": "evRowYumithon",
-                  "name": "YUMITHON",
-                  "width": "fill_container",
-                  "fill": "#FFFFFF",
-                  "stroke": "#DDDDDD",
-                  "strokeWidth": 1,
-                  "cornerRadius": 20,
-                  "layout": "horizontal",
-                  "gap": 16,
-                  "padding": [
-                    12,
-                    12,
-                    12,
-                    20
-                  ],
-                  "alignItems": "center",
-                  "metadata": {
-                    "href": "https://luma.com/2guk5d34"
-                  },
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "evRowYumithonBody",
-                      "name": "Row Body",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 6,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "evRowYumithonDate",
-                          "name": "Row Date",
-                          "fill": "#C45C26",
-                          "content": "Oct 17, 2026",
-                          "fontFamily": "Pretendard",
-                          "fontSize": 13,
-                          "fontWeight": "semibold"
-                        },
-                        {
-                          "type": "text",
-                          "id": "evRowYumithonTitle",
-                          "name": "Row Title",
-                          "fill": "#37210D",
-                          "content": "YUMITHON: HeyYumi MCP Hackathon",
-                          "fontFamily": "Libre Baskerville",
-                          "fontSize": 19,
-                          "fontWeight": "medium",
-                          "lineHeight": 1.35
-                        },
-                        {
-                          "type": "text",
-                          "id": "evRowYumithonPlace",
-                          "name": "Row Place",
-                          "fill": "#91857A",
-                          "content": "Jung-gu, Seoul — Hide Me Please Euljiro, 2F",
-                          "fontFamily": "Pretendard",
-                          "fontSize": 13,
-                          "fontWeight": "normal",
-                          "lineHeight": 1.45
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "evRowYumithonCover",
-                      "name": "Row Cover",
-                      "width": 120,
-                      "height": 120,
-                      "cornerRadius": 14,
-                      "fill": "#F1F1ED",
-                      "metadata": {
-                        "type": "local",
-                        "src": "images/Event/261017yumithon.png",
-                        "alt": "YUMITHON: HeyYumi MCP Hackathon",
-                        "fit": "cover"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "evRowHack4",
-                  "name": "Cursor × Grok Bot Hackathon Seoul #4",
+                  "id": "evRowGrokSeoul",
+                  "name": "Grok Bot Seoul Build Day",
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "stroke": "#DDDDDD",
@@ -3670,7 +3589,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "evRowHack4Body",
+                      "id": "evRowGrokSeoulBody",
                       "name": "Row Body",
                       "width": "fill_container",
                       "layout": "vertical",
@@ -3678,20 +3597,20 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "evRowHack4Date",
+                          "id": "evRowGrokSeoulDate",
                           "name": "Row Date",
                           "fill": "#C45C26",
-                          "content": "Oct 24, 2026",
+                          "content": "Nov 01, 2026",
                           "fontFamily": "Pretendard",
                           "fontSize": 13,
                           "fontWeight": "semibold"
                         },
                         {
                           "type": "text",
-                          "id": "evRowHack4Title",
+                          "id": "evRowGrokSeoulTitle",
                           "name": "Row Title",
                           "fill": "#37210D",
-                          "content": "Cursor × Grok Bot Hackathon Seoul #4",
+                          "content": "Grok Bot Seoul Build Day",
                           "fontFamily": "Libre Baskerville",
                           "fontSize": 19,
                           "fontWeight": "medium",
@@ -3699,10 +3618,10 @@
                         },
                         {
                           "type": "text",
-                          "id": "evRowHack4Place",
+                          "id": "evRowGrokSeoulPlace",
                           "name": "Row Place",
                           "fill": "#91857A",
-                          "content": "Seoul — venue to be announced",
+                          "content": "Gangnam-gu, Seoul — Korea Investment Accelerator, Zenith Tower 4F",
                           "fontFamily": "Pretendard",
                           "fontSize": 13,
                           "fontWeight": "normal",
@@ -3712,7 +3631,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "evRowHack4Cover",
+                      "id": "evRowGrokSeoulCover",
                       "name": "Row Cover",
                       "width": 120,
                       "height": 120,
@@ -3720,10 +3639,196 @@
                       "fill": "#F1F1ED",
                       "metadata": {
                         "type": "local",
-                        "src": "images/Event/261024cursor-hackathon-seoul-4th.png",
-                        "alt": "Cursor × Grok Bot Hackathon Seoul #4",
+                        "src": "images/Event/261101grokbot-seoul-buildday.png",
+                        "alt": "Grok Bot Seoul Build Day",
                         "fit": "cover"
                       }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "evRowGrokSF",
+                  "name": "Grok Bot Build Day SF: Real-World Agents",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": "#DDDDDD",
+                  "strokeWidth": 1,
+                  "cornerRadius": 20,
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "padding": [
+                    12,
+                    12,
+                    12,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "metadata": {
+                    "href": "https://luma.com/ba9sivsv"
+                  },
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "evRowGrokSFBody",
+                      "name": "Row Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "evRowGrokSFDate",
+                          "name": "Row Date",
+                          "fill": "#C45C26",
+                          "content": "Nov 07, 2026",
+                          "fontFamily": "Pretendard",
+                          "fontSize": 13,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "evRowGrokSFTitle",
+                          "name": "Row Title",
+                          "fill": "#37210D",
+                          "content": "Grok Bot Build Day SF: Real-World Agents",
+                          "fontFamily": "Libre Baskerville",
+                          "fontSize": 19,
+                          "fontWeight": "medium",
+                          "lineHeight": 1.35
+                        },
+                        {
+                          "type": "text",
+                          "id": "evRowGrokSFPlace",
+                          "name": "Row Place",
+                          "fill": "#91857A",
+                          "content": "San Francisco — Hippo Campus, 1050 Sansome St",
+                          "fontFamily": "Pretendard",
+                          "fontSize": 13,
+                          "fontWeight": "normal",
+                          "lineHeight": 1.45
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "evRowGrokSFCover",
+                      "name": "Row Cover",
+                      "width": 120,
+                      "height": 120,
+                      "cornerRadius": 14,
+                      "fill": "#F1F1ED",
+                      "metadata": {
+                        "type": "local",
+                        "src": "images/Event/261107grokbot-sf-buildday.png",
+                        "alt": "Grok Bot Build Day SF: Real-World Agents",
+                        "fit": "cover"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "evRowNotion",
+                  "name": "Notion Hackathon (save the date)",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": "#DDDDDD",
+                  "strokeWidth": 1,
+                  "cornerRadius": 20,
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "padding": [
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "alignItems": "start",
+                  "metadata": {
+                    "variant": "savedate"
+                  },
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "evRowNotionBody",
+                      "name": "Row Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "evRowNotionDate",
+                          "name": "Row Date",
+                          "fill": "#C45C26",
+                          "content": "Nov 21, 2026",
+                          "fontFamily": "Pretendard",
+                          "fontSize": 13,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "evRowNotionTitle",
+                          "name": "Row Title",
+                          "fill": "#37210D",
+                          "content": "Notion Hackathon",
+                          "fontFamily": "Libre Baskerville",
+                          "fontSize": 19,
+                          "fontWeight": "medium",
+                          "lineHeight": 1.35
+                        },
+                        {
+                          "type": "text",
+                          "id": "evRowNotionPlace",
+                          "name": "Row Place",
+                          "fill": "#91857A",
+                          "content": "Seoul — with Notion Korea · venue to be announced",
+                          "fontFamily": "Pretendard",
+                          "fontSize": 13,
+                          "fontWeight": "normal",
+                          "lineHeight": 1.45
+                        },
+                        {
+                          "type": "text",
+                          "id": "evRowNotionDesc",
+                          "name": "Savedate Desc",
+                          "fill": "#37210D",
+                          "content": "Registration opens soon. Join our open chat to hear about it first.",
+                          "fontFamily": "Pretendard",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "lineHeight": 1.6
+                        },
+                        {
+                          "type": "frame",
+                          "id": "evRowNotionCta",
+                          "name": "Savedate CTA",
+                          "fill": "#FEE500",
+                          "cornerRadius": 999,
+                          "padding": [
+                            11,
+                            20,
+                            11,
+                            20
+                          ],
+                          "metadata": {
+                            "href": "https://open.kakao.com/o/pyheuCui"
+                          },
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "evRowNotionCtaText",
+                              "name": "CTA Label",
+                              "fill": "#181600",
+                              "content": "Get notified in our open chat",
+                              "fontFamily": "Pretendard",
+                              "fontSize": 14,
+                              "fontWeight": "semibold"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -4296,6 +4401,87 @@
                 },
                 {
                   "type": "frame",
+                  "id": "evRowYumithon",
+                  "name": "YUMITHON",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": "#DDDDDD",
+                  "strokeWidth": 1,
+                  "cornerRadius": 20,
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "padding": [
+                    12,
+                    12,
+                    12,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "metadata": {
+                    "href": "https://luma.com/2guk5d34"
+                  },
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "evRowYumithonBody",
+                      "name": "Row Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "evRowYumithonDate",
+                          "name": "Row Date",
+                          "fill": "#A59B92",
+                          "content": "Oct 17, 2026",
+                          "fontFamily": "Pretendard",
+                          "fontSize": 13,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "evRowYumithonTitle",
+                          "name": "Row Title",
+                          "fill": "#37210D",
+                          "content": "YUMITHON: HeyYumi MCP Hackathon",
+                          "fontFamily": "Libre Baskerville",
+                          "fontSize": 19,
+                          "fontWeight": "medium",
+                          "lineHeight": 1.35
+                        },
+                        {
+                          "type": "text",
+                          "id": "evRowYumithonPlace",
+                          "name": "Row Place",
+                          "fill": "#91857A",
+                          "content": "Jung-gu, Seoul — Hide Me Please Euljiro, 2F",
+                          "fontFamily": "Pretendard",
+                          "fontSize": 13,
+                          "fontWeight": "normal",
+                          "lineHeight": 1.45
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "evRowYumithonCover",
+                      "name": "Row Cover",
+                      "width": 120,
+                      "height": 120,
+                      "cornerRadius": 14,
+                      "fill": "#F1F1ED",
+                      "metadata": {
+                        "type": "local",
+                        "src": "images/Event/261017yumithon.png",
+                        "alt": "YUMITHON: HeyYumi MCP Hackathon",
+                        "fit": "cover"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
                   "id": "evRowAiForGood",
                   "name": "AI IMPACT: AI for Good Hackathon",
                   "width": "fill_container",
@@ -4836,7 +5022,7 @@
                           "id": "evRowBuildPlace",
                           "name": "Row Place",
                           "fill": "#91857A",
-                          "content": "Gangnam-gu, Seoul — FastFive 4F Grand Hall",
+                          "content": "Gangnam-gu, Seoul — Zenith Tower 4F Grand Hall",
                           "fontFamily": "Pretendard",
                           "fontSize": 13,
                           "fontWeight": "normal",
@@ -4917,7 +5103,7 @@
                           "id": "evRowHack1Place",
                           "name": "Row Place",
                           "fill": "#91857A",
-                          "content": "Gangnam-gu, Seoul — FastFive 4F Grand Hall",
+                          "content": "Gangnam-gu, Seoul — Zenith Tower 4F Grand Hall",
                           "fontFamily": "Pretendard",
                           "fontSize": 13,
                           "fontWeight": "normal",
@@ -5109,7 +5295,7 @@
                           "id": "evRowMeetupPlace",
                           "name": "Row Place",
                           "fill": "#91857A",
-                          "content": "Gangnam-gu, Seoul — K-Square 20F Facid Lounge",
+                          "content": "Gangnam-gu, Seoul — K-Square 20F Hashed Lounge",
                           "fontFamily": "Pretendard",
                           "fontSize": 13,
                           "fontWeight": "normal",
