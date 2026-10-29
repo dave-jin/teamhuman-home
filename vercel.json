@@ -4,6 +4,17 @@
     "deploymentEnabled": false
   },
   "rewrites": [
-    { "source": "/guide", "destination": "/guide.html" }
+    {
+      "source": "/guide",
+      "destination": "/guide.html"
+    },
+    {
+      "source": "/bots",
+      "destination": "https://teamhuman-bots.vercel.app/bots"
+    },
+    {
+      "source": "/bots/:path*",
+      "destination": "https://teamhuman-bots.vercel.app/bots/:path*"
+    }
   ]
 }
